@@ -1,0 +1,35 @@
+.boxImage, .boxVideo{
+	float: left;
+	display:block;
+	padding: 10px;
+	border: 1px solid #000;
+	margin: 15px;
+	background-color: #FFF;
+	transition-property: background-color, color, left;
+	transition-duration: 0.5s;	
+}
+
+.boxImage:hover:not(.imgSelected), .boxVideo:hover:not(.boxSelected){
+	background-color: #ccc;
+	transition-property: background-color, color, left;
+	transition-duration: 0.5s;	
+}
+
+.imgSelected,.boxSelected{
+	background-color: #0088CC !important;
+	transition-property: background-color, color, left;
+	transition-duration: 0.5s;	
+}
+
+.cntImage{
+	
+}
+
+.cntImageTitle{
+	margin: 5px 0px;
+	font: smaller;		
+}
+
+.cntPaginator{
+	clear:both;
+}
